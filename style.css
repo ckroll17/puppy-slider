@@ -1,0 +1,17 @@
+.slides{
+  position: relative;
+  width: 525px;
+  height: 700px;
+  padding: 20px;
+}
+
+.slides img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.slides .top{
+  z-index: -1;
+}
